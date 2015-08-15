@@ -1,0 +1,32 @@
+---
+title: "Report"
+author: "Yiyang Shen and Caylie Connelly"
+date: "August 14, 2015"
+output: pdf_document
+---
+
+From our analysis we discovered that storms happen more frequently in the fall months. We also confirmed that as expected there are more storms at slower wind speeds.
+
+We also used a linear regression model to fit the trend between the average wind speed in a storm, and the average pressure. We discovered that higher wind speeds indicate lower pressure, meaning there is a negative correlation between the two.
+
+Using graphics, we plotted the trajectories of all the storms in the data set.
+
+![Map of All Storms, 1980-2010](../images/All_Storms.png)
+
+We also plotted the trajectories of each storm in a year, divided up by month. This helped us see which months had the most and longest storms.
+
+![Map of All Storms, 1980-2010](../images/stormsByMonth.png)
+
+Lastly, we plotted the storms by year for each decade, to see which years were storm-heavy for each decade.
+
+storms in 1980s:
+
+![Map of All Storms, 1980-2010](../images/storms80s.png)
+
+storms in 1990s:
+
+![Map of All Storms, 1980-2010](../images/storms1990s.png)
+
+storms in 2000s:
+
+![Map of All Storms, 1980-2010](../images/storms2000s.png)
